@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏布局——负margin</title>
+    <style>
+        .left, .right{
+            float:left;
+            width:200px;
+            min-height:600px;
+            background:#f00;
+        }
+
+        .left{
+            margin-left: -100%;
+        }
+
+        .right{
+            margin-left:-200px;
+        }
+
+        .main{
+            float:left;
+            width:100%;
+            min-height:600px;
+            background:blue;
+        }
+
+        .main-content{
+            margin:0 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="main-content"></div>
+</div>
+<div class="left"></div>
+<div class="right"></div>
+</body>
+</html>
