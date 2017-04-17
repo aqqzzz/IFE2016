@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>垂直居中</title>
+    <style>
+        .main{
+            /*display:table;*/
+
+            width:300px;
+            height:300px;
+            position:absolute;
+            top:50%;
+            margin-top:-100px;
+            background-color: #cccccc;
+            text-align: center;
+
+            /*display: flex;*/
+            /*flex-direction: column;*/
+            /*align-items: center;*/
+            /*justify-content: center;*/
+
+        }
+        /*.main a{*/
+
+            /*!*text-align: center;*!*/
+            /*!*width:100px;*!*/
+            /*!*height:100px;*!*/
+            /*!*line-height:200px;*!*/
+            /*background-color: black;*/
+            /*color: white;*/
+
+            /*!*display: table-cell;*!*/
+            /*padding:20px;*/
+
+            /*vertical-align: middle;*/
+
+        /*}*/
+
+        .main::before{
+            content:" ";
+            display:inline-block;
+            height:100%;
+            vertical-align: middle;
+        }
+
+        .main a{
+            display:inline-block;
+            vertical-align:middle;
+            width: 190px;;
+            margin:0;
+            padding:20px;
+            background: #000;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+<a>呵呵哈哈哈哈师大军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军军</a>
+</div>
+</body>
+</html>

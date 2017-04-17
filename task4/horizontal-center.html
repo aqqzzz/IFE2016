@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中</title>
+
+    <style>
+
+        /*.inline-box{*/
+            /**/
+            /*background-color: #cccccc;*/
+            /*text-align: center;*/
+        /*}*/
+
+        .block-box{
+            margin:0 auto;
+            width:200px;
+            height:200px;
+            background-color: #cccccc;
+        }
+
+        .flex-box{
+            /*display: flex;*/
+            /*justify-content: center;*/
+            text-align: center;
+
+            background-color: #cccccc;
+        }
+
+        .item{
+            text-align: left;
+            display: inline-block;
+            width: 200px;
+            height:200px;
+            background-color: black;
+            margin: 0 10px;
+            color:white;
+            padding:15px;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--<header class="inline-box">我是单行文本</>-->
+
+<!--<div class="block-box"></div>-->
+
+<div class="flex-box">
+    <div class="item">这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本</div>
+    <div class="item">这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本</div>
+    <div class="item">这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本这是一段文本</div>
+</div>
+<div class="flex-box"></div>
+</body>
+</html>

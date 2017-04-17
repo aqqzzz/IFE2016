@@ -1,0 +1,29 @@
+.center{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.left-top, .right-bottom{
+    position: absolute;
+    background-color: #fc0;
+    width: 50px;
+    height:50px;
+}
+
+.left-top{
+    top:0;
+    left:0;
+    border-bottom-right-radius: 50px;
+}
+
+.right-bottom{
+    right:0;
+    bottom:0;
+    border-top-left-radius: 50px;
+}

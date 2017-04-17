@@ -1,0 +1,140 @@
+body{
+    background-color: gainsboro;
+    margin:0;
+}
+
+.header{
+    background-color: rgba(0,0,0,0.8);
+    padding:10px 30px;
+}
+
+.header h1{
+    display: inline;
+}
+
+.header ul{
+    display:inline;
+    float:right;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.header ul li a:hover{
+    color: aliceblue;
+}
+
+.horizontal-ul li{
+    float:left;
+    margin-left:30px;
+}
+
+.normal-div {
+    background-color: #ffffff;
+    margin:30px 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.author, .release-time, .title-level-2, .hint{
+    color: grey;
+}
+
+.gallery-pic {
+    width:200px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px 20px 20px 30px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.gallery-pic img{
+    max-width: 100%;
+}
+
+.fluid-table{
+    border: 1px solid grey;
+    width: 100%;
+}
+.fluid-table tr{
+    margin: 0;
+}
+
+.fluid-table td, .fluid-table th{
+    border:1px solid grey;
+    padding:5px;
+    margin:0;
+}
+
+.table-head {
+    background-color: rgba(51,51,51,1);
+    color:white;
+}
+
+#table-total{
+    background-color: darkgrey;
+}
+
+
+
+.main{
+
+    margin-right: 800px;
+}
+
+#sidebar{
+    position: relative;
+    width: 400px;
+    float:right;
+}
+
+#sidebar h2{
+    font-size:18px;
+    padding: 5px 5px 5px 20px;
+    border-left: 3px solid grey;
+}
+
+.central-form{
+    width: 100%;
+}
+
+.central-form .label{
+    float:left;
+    width: 30%;
+    display: inline-block;
+    margin-bottom:10px;
+}
+
+.central-form .input{
+    float:left;
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.central-form .label label{
+    float:right;
+}
+
+
+.central-form>div{
+    overflow: hidden;
+
+}
+
+.footer{
+    width:100%;
+    background-color: #000;
+    color:white;
+    padding: 30px;
+}
+
+.footer p{
+    text-align: center;
+}
