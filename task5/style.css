@@ -13,13 +13,14 @@ body{
 }
 
 .header ul{
-    display:inline;
     float:right;
+
 }
 
 .header ul li a{
     text-decoration: none;
     color: grey;
+    font-size: 16px;
 }
 
 .header ul li a:hover{
@@ -36,6 +37,7 @@ article {
     margin:30px 20px;
     padding: 30px;
     box-shadow: 5px 5px 5px grey;
+    margin-right: 430px;
 }
 
 .author, .release-time, .title-level-2, .hint{
@@ -47,6 +49,8 @@ article {
     border: 1px solid grey;
     padding: 10px;
     margin: 20px 20px 20px 30px;
+    display: inline-block;
+
 }
 
 .center-text{
@@ -81,16 +85,18 @@ article {
 }
 
 aside {
+    clear:right;
     background: #fff;
     float: right;
     width: 350px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 20px;
     padding: 20px;
     box-shadow: 2px 2px 2px #848484;
+    font-size: 0.8em;
 }
 
-#sidebar h2{
+aside h2{
     font-size:18px;
     padding: 5px 5px 5px 20px;
     border-left: 3px solid grey;
@@ -123,6 +129,16 @@ aside {
 .central-form>div{
     overflow: hidden;
 
+}
+
+.central-form .submit{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 2px;
+    height: 30px;
 }
 
 .footer{
