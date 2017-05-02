@@ -31,7 +31,7 @@ body{
     margin-left:30px;
 }
 
-.normal-div {
+article {
     background-color: #ffffff;
     margin:30px 20px;
     padding: 30px;
@@ -80,17 +80,14 @@ body{
     background-color: darkgrey;
 }
 
-
-
-.main{
-
-    margin-right: 800px;
-}
-
-#sidebar{
-    position: relative;
-    width: 400px;
-    float:right;
+aside {
+    background: #fff;
+    float: right;
+    width: 350px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #848484;
 }
 
 #sidebar h2{
